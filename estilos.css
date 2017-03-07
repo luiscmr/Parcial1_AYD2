@@ -4,7 +4,7 @@ html,body {
 
 header {
     display:block;
-    background:#286af0;
+    background:blue;
     padding:10px 0px;
     text-align: center;
 }
@@ -23,7 +23,7 @@ nav{
 .element-menu{
     width: 150px;
     height: 30px;
-    background-color: #286af0;
+    background-color: blue;
     padding-top: 2px;
     font-family: arial;
     transition: width .1s;
@@ -36,7 +36,7 @@ nav{
 article {
     width: 85%;
     height: 62%;
-    background: #ccc;
+    background:white;
     float: right;
     overflow: auto;
     padding-bottom: 30px;
@@ -54,7 +54,7 @@ footer {
     height: 70px; 
     padding:5px 0px;
     clear: both;
-    background: #286af0;
+    background: blue;
     text-align: center;
     color: #fff;
 }
