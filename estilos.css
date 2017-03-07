@@ -1,0 +1,60 @@
+html,body {
+    height:100%;
+}
+
+header {
+    display:block;
+    background:#286af0;
+    padding:10px 0px;
+    text-align: center;
+}
+
+
+nav{
+    float: left;
+    width: 15%;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:10px;
+    text-align: center;
+    color: white;
+}
+
+.element-menu{
+    width: 150px;
+    height: 30px;
+    background-color: #286af0;
+    padding-top: 2px;
+    font-family: arial;
+    transition: width .1s;
+}
+
+.element-menu:hover{
+    width: 100%;
+    background-color: orange;
+}
+article {
+    width: 85%;
+    height: 62%;
+    background: #ccc;
+    float: right;
+    overflow: auto;
+    padding-bottom: 30px;
+    padding-top:30px;
+}
+section{
+    padding-bottom:30px;   
+    padding-top:30px;   
+    padding-right: 60px;
+    padding-left: 60px;
+}
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 70px; 
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}

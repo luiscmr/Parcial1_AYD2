@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Compu-Solutions S.A.</title>
+	<link rel="stylesheet" href="estilos.css">	
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header>
+        <h1>Compu-Solutions S.A.</h1>
+    </header>
+
+	<nav>
+		<div class="element-menu" onclick="window.location='nosotros.html';">Nosotros</div>
+		<div class="element-menu" onclick="window.location='productos.html';">Productos</div>
+		<div class="element-menu" onclick="window.location='servicios.html';">Servicios</div>
+		<div class="element-menu" onclick="window.location='contacto.html';">Contacto</div>
+
+	</nav>
+    <!-- Contenido -->
+    <article>
+	    <section>
+	    	<p>Deseas contactarnos, o necesitas ampliar mas informacion de nuestros productos y servicios, puedes contactarnos por medio de este formulario:</p>
+	    	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+				<div class="row">
+					<label for="name">Tu nombre:</label><br />
+					<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+				</div>
+				<div class="row">
+					<label for="email">Tu email:</label><br />
+					<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+				</div>
+				<div class="row">
+					<label for="message">Tu mensaje:</label><br />
+					<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+				</div>
+				<input id="submit_button" type="submit" value="Enviar" />
+			</form>				
+	    </section>
+
+    </article>
+
+    <!-- Pie de pagina -->
+    <footer>
+    	<h1>Luis Carlos Mendez Rodas - 201020917</h1>
+    </footer>
+
+
+</body>
+</html>
